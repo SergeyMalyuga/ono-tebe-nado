@@ -15,25 +15,87 @@
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item menu-item_without-bullet">
-            <a class="menu__link-1 link-without-underline" href="#">главная</a>
+            <a
+              class="menu__link-1 link-with-custom-style header__link_active"
+              href="#"
+              >главная</a
+            >
           </li>
-          <li class="menu__item "><a class="menu__link-2 link-with-custom-style" href="#">посмотреть лоты</a></li>
-          <li class="menu__item "><a class="menu__link-3 link-with-custom-style" href="#">об аукционе</a></li>
+          <li class="menu__item">
+            <a
+              class="menu__link-2 link-with-custom-style header__link_active"
+              href="#"
+              >посмотреть лоты</a
+            >
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link-3 link-with-custom-style header__link_active"
+              href="#"
+              >об аукционе</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="menu__logo">
-<img class="menu__logo-image" src="../images/logo.png">
+        <img class="menu__logo-image" src="../images/logo.png" />
       </div>
       <address class="address">
-        <a class="address-phone_link link-with-custom-style" href="tel:+99995555555">+9 999 555 5555</a>
-        <br>
-        <a class="address-email_link link-with-custom-style" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="text">наб. Принсенграхт 263-<br> 265, Амстердам</p>
+        <a
+          class="address-phone_link link-with-custom-style header__link_active"
+          href="tel:+99995555555"
+          >+9 999 555 5555</a
+        >
+        <br />
+        <a
+          class="address-email_link link-with-custom-style header__link_active"
+          href="mailto:info@sobaka.ge"
+          >info@sobaka.ge</a
+        >
+        <p class="text">
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
+        </p>
       </address>
     </header>
     <main>
-      <section class="cover"></section>
-      <section class="lots"></section>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="title-span text-left">он о</span>
+          <span class="title-span text-center">теб e</span>
+          <span class="title-span text-right">н адо</span>
+        </h1>
+        <div class="cover__description">
+          <h2 class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </h2>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
+      <section class="lots">
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list links-list-item_no-bullit">
+          <li class="lots__card-list-item card_type_film">
+            <article class="card">
+              <div class="overlay"></div>
+              <a class="card-link" href="#"></a>
+            </article>
+          </li>
+
+          <li class="lots__card-list-item card_type_picture">
+            <article class="card_type_book">
+              <div class="overlay"></div>
+              <a class="card-link" href="#"></a>
+            </article>
+          </li>
+
+          <li class="lots__card-list-item card_type_book">
+            <div class="overlay"></div>
+            <a class="card-link" href="#"></a>
+          </li>
+        </ul>
+      </section>
       <section class="about"></section>
     </main>
     <footer class="footer"></footer>
