@@ -10,12 +10,12 @@
 }
 
 .header__links-list {
-  display: flex;
-  gap: 33px;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   list-style: circle;
+  display: flex;
+  gap: 33px;
 }
 
 .header__links-list-item {
@@ -334,8 +334,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  text-align: center;
-
   color: #000000;
 }
 
